@@ -1,0 +1,73 @@
+.container-header{
+    background: #333;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 125px;
+}
+
+.container-header>.flex{
+    width: 80%;
+    justify-content: space-between;
+    gap: 30px;
+}
+.flex-logo{
+    justify-content: space-between;
+    width: 90%;
+}
+.flex-logo a{
+    width: 300px;
+    text-decoration: none;
+    color: #F0B364;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    width: 360px;
+    overflow: hidden;
+  }
+  
+  .search-bar input {
+    border: none;
+    width: 360px;
+    height: 40px;
+    padding: 0.5rem;
+    outline: none;
+  }
+  
+  .search-bar button {
+    background: #fff;
+    width: 46px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0 0.5rem;
+  }
+  .search-bar button :hover{
+    color: #F0B364;
+  }
+
+  .user{
+    background: #F0B364;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .user:hover{
+    border: 2px solid #F0B364;
+    background: none;
+  }
+
+  .btn-logado{
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+  }
