@@ -91,7 +91,7 @@ const Login = () => {
 
       if (error) throw error;
 
-      alert('Cadastro realizado com sucesso!');
+      alert('Cadastro realizado com sucesso, verifique seu email antes de fazer login!');
       setCadastroData({
         nome_usuario: '',
         login_usuario: '',
