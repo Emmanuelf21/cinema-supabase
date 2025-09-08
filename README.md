@@ -1,8 +1,8 @@
 # 🎬 Absolute Cinema - Projeto Fullstack com Supabase
 
 Sistema de compra de ingressos de cinema desenvolvido com React no frontend e Supabase como backend (banco de dados, autenticação e API).
-O projeto consome também a API do TMDB para exibir informações atualizadas sobre os filmes.
-
+O projeto consome também a API do TMDB para exibir informações atualizadas sobre os filmes.<br>
+[Link do Projeto funcionando](https://cinema-supabase.vercel.app)
 # 🚀 Funcionalidades
 
 - Autenticação de usuários com Supabase Auth.
