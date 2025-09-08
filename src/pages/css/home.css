@@ -2,18 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 550px;
-    /* background: #111 url('banner-pattern.png') repeat; */
-    background-image: url('../../images/banner2.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
     text-align: center;
-    background-position: 50%;
+    background: linear-gradient(#333, black);
 }
 
-/* .banner img{
-    width: 1440px;
-} */
+.banner img{
+    width: 60%;
+}
 
 .em-cartaz {
     padding: 2rem;
@@ -23,6 +18,7 @@
 .em-cartaz h2 {
     margin-bottom: 2rem;
     font-size: 1.5rem;
+    color: #F0B364;
 }
 
 .filmes {

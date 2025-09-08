@@ -42,7 +42,7 @@ const Home = () => {
   return (
     <>
       <section className="banner">
-        {/* <img src={banner} alt="" /> */}
+        <img src='../../images/banner2.png' alt="#" />
       </section>
 
       <section className="em-cartaz">
